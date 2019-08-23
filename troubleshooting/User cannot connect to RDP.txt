@@ -1,0 +1,10 @@
+Reset password
+Password should be unlocked
+Try logging on as the user via a VMware console if possible
+
+
+Whenever resetting the password, ensure that the change password on next login is always unchecked because it is a noted MS flaw that if the LSA cannot be contacted, the user will not be able to login. This hapepns in the remote desktop where the client is not able to use NLA (network level authentication).
+
+https://blog.mnewton.com/articles/solution-rdp-the-local-security-authority-cannot-be-contacted/
+
+https://www.parallels.com/blogs/ras/disabling-network-level-authentication-for-remote-desktop-services-connections-2/

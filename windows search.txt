@@ -1,0 +1,3 @@
+Search *.xlsx files containing "string"
+
+type:xlsx content:"tableau"

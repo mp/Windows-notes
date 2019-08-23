@@ -1,0 +1,10 @@
+If RDP drops the connection for 30 seconds.
+
+
+Server Manager Event Viewer
+
+Log onto 10.188.0.40, press start and search for the Event viewer (same as View event logs). Alternatively, Server Manager, Tools -> Event Viewer:
+
+Look at the logs for when the issue occurred for Windows Logs -> Application, Security, Setup, System. Alternatively, Event Viewer (local), Customer Views, ServerRoles, Remote Desktop Services.
+
+Look for warnings.
